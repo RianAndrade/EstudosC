@@ -13,16 +13,16 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
                   
    - Dentro do código estrá um comentário enbaixo das bibliotecas com a questão para mais fácil revisão como no exemplo:
   ```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+  #include <stdio.h>
+  #include <stdlib.h>
+  #include <time.h>
 
 		/*29. Gere aleatoriamente uma matriz N x N de inteiros sorteados no intervalo entre X e Y (inclusive).
-Imprima-a em formato de tabela, e os valores que compõem a coluna que resulta na maior soma, e os valores da
-linha que resulta na menor soma.*/
+  Imprima-a em formato de tabela, e os valores que compõem a coluna que resulta na maior soma, e os valores da
+  linha que resulta na menor soma.*/
 
-int main()
-{
+  int main()
+  {
 	int tamanho, maior, menor, maiorl, menorc, i, j, soma=0, linha, coluna;
 	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 	printf("Qual o menor valor? \n");
