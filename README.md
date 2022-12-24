@@ -12,7 +12,7 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
    - O nome estará como ListXQuestY, onde X será o número referente a lista, é Y será referente ao número da questão dentro dela.
                   
    - Dentro do código estrá um comentário enbaixo das bibliotecas com a questão para mais fácil revisão como no exemplo:
-                  ```c
+  ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -26,6 +26,5 @@ int main()
 	int tamanho, maior, menor, maiorl, menorc, i, j, soma=0, linha, coluna;
 	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 	printf("Qual o menor valor? \n");
-                  
-                  ```
-
+    
+```
