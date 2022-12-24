@@ -9,8 +9,8 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
 
 - Existe outra pasta com o nome [Rsoluções](https://github.com/RianAndrade/EstudosC/tree/main/Resolu%C3%A7%C3%B5es) que é onde se encontram as minhas resoluções das questões no seguinte molde:
 
-- O nome estará como ListXQuestY, onde X será o número referente a lista, é Y será referente ao número da questão dentro dela.
+   - O nome estará como ListXQuestY, onde X será o número referente a lista, é Y será referente ao número da questão dentro dela.
                   
-- Dentro do código estrá um comentário enbaixo das bibliotecas com a questão para mais fácil revisão como no exemplo:
+   - Dentro do código estrá um comentário enbaixo das bibliotecas com a questão para mais fácil revisão como no exemplo:
                   ![exemplo](https://raw.githubusercontent.com/RianAndrade/EstudosC/main/imagens/exemplo.png)
 
