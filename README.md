@@ -28,3 +28,6 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
 	printf("Qual o menor valor? \n");
 ***
 # Obrigado pela atenção 🎊
+email para contato: riangabrieldev@gmail.com
+
+***
