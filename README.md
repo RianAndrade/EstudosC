@@ -27,4 +27,4 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
 	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 	printf("Qual o menor valor? \n");
 
-#Obrigado pela atenção 🎊
+# Obrigado pela atenção 🎊
