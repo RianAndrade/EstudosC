@@ -12,5 +12,20 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
    - O nome estará como ListXQuestY, onde X será o número referente a lista, é Y será referente ao número da questão dentro dela.
                   
    - Dentro do código estrá um comentário enbaixo das bibliotecas com a questão para mais fácil revisão como no exemplo:
-                  ![exemplo](https://raw.githubusercontent.com/RianAndrade/EstudosC/main/imagens/exemplo.png)
+                  ```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+		/*29. Gere aleatoriamente uma matriz N x N de inteiros sorteados no intervalo entre X e Y (inclusive).
+Imprima-a em formato de tabela, e os valores que compõem a coluna que resulta na maior soma, e os valores da
+linha que resulta na menor soma.*/
+
+int main()
+{
+	int tamanho, maior, menor, maiorl, menorc, i, j, soma=0, linha, coluna;
+	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
+	printf("Qual o menor valor? \n");
+                  
+                  ```
 
