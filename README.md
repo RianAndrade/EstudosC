@@ -1,4 +1,4 @@
-# Olá Mundooooo!!!
+# Olá Mundooooo!!! ✌️
 
   Neste epositório se encontra a resolução de algumas atividades em C feitas por min.
 O propósito dele é bem simples desafiar a todos a resolver as questões propostas é dar o exemplo de como resolvi todas elas, para caso haja alguma dificuldade de resolver você possa ver o meu exemplo é tentar resolver novamente com a mente mais fresca!!!
@@ -26,3 +26,5 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
 	int tamanho, maior, menor, maiorl, menorc, i, j, soma=0, linha, coluna;
 	printf("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
 	printf("Qual o menor valor? \n");
+
+#Obrigado pela atenção 🎊
