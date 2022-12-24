@@ -1,7 +1,7 @@
 # Olá Mundooooo!!! ✌️
 
-  Neste repositório se encontra a resolução de algumas atividades em C feitas por min.
-O propósito dele é bem simples desafiar a todos a resolver as questões propostas é dar o exemplo de como resolvi todas elas, para caso haja alguma dificuldade de resolver você possa ver o meu exemplo é tentar resolver novamente com a mente mais fresca!!!
+  Neste repositório se encontra a resolução de algumas atividades em C feitas por mim.
+O propósito dele é bem simples desafiar a todos a resolver as questões propostas e dar o exemplo de como resolvi todas elas, para caso haja alguma dificuldade de resolver você possa ver o meu exemplo e tentar resolver novamente com a mente mais fresca!!!
 
 ## Como funcionará: 
 
