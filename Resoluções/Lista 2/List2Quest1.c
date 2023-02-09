@@ -22,7 +22,10 @@ int main() {
     }
     
     printf("\n\n");
-    
+    /*Optei por uma descrição mais detalhada pois utilizei um mecanismo um pouco diferente do convencinal as praticas inicias da programação, este é o loop que realiza o embaralhamento das cartas. Ele começa na última posição do array cartas (n - 1) e termina na primeira posição (0). 
+    Gera uma posição aleatória j: a função rand() gera um número inteiro aleatório. O operador % é usado para obter um número aleatório entre 0 e i (inclusive).
+    Armazena a carta na posição i na variável temporária temp.
+    Troca as cartas na posição i e j: a carta na posição i é atribuída à posição j, e a carta anteriormente na posição j é armazenada na posição i usando a variável temporária temp.  */
     srand(time(NULL));
 
     for (i = n - 1; i > 0; i--) {
