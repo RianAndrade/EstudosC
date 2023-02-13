@@ -24,7 +24,7 @@ void lin(int tan)
 }
 int main()
 {
-    int x, k, i, j, temp, taMax, tamanho=1;
+    int x, k, i, j, temp, taMax;
     lin(30);
     printf("Me diga qual o tamanho do primeiro vetor: ");
     scanf("%d", &x);
@@ -82,35 +82,43 @@ int main()
     printf("\n");
     lin(30);
     // Calcular os números exclusivos 
-    int vet1aux[x];
-    vet1aux[0] = vet1[0];
-    for(i=1; i<x; i++)
+    printf("Números exclusivos de cada vetor:\n\n");
+    printf("Vetor 1: \n\n");
+    for(i=0; i<x; i++)
     {
-        temp= 0;
-        if(vet1[i] == vet2[0])
+		temp= 0;
+		for(j=0; j<k; j++)
 		{
-			temp = 1;
-		}
-		else
+			if (vet1[i] == vet2[j])
 			{
-				for(j=0; j<k; j++)
-				{
-					if (vet1[i] == vet2[j])
-					{
-						temp = temp+1;
-						break;
-					}
-				}
-				if (temp == 0)
-				{
-					vet1aux[tamanho] = vet1[i];
-					tamanho = tamanho+1;
-				}
+				temp = temp+1;
+				break;
 			}
+				}
+		if (temp == 0)
+		{
+			printf("[%02d]", vet1[i]);
+		}
 	}
-    for(i=0; i<tamanho; i++)
+	printf("\n\n");
+	printf("Vetor 2: \n\n");
+	for(i=0; i<k; i++)
     {
-        printf("[%02d]", vet1aux[i]);
-    }
+		temp= 0;
+		for(j=0; j<x; j++)
+		{
+			if (vet2[i] == vet1[j])
+			{
+				temp = temp+1;
+				break;
+			}
+				}
+		if (temp == 0)
+		{
+			printf("[%02d]", vet2[i]);
+		}
+	}
+	printf("\n");
+	lin(30);
     return 0;
 }
