@@ -10,8 +10,6 @@ b) Todos os números exclusivos do vetor X;
 c) Todos os números exclusivos do vetor Y;
 d) Os números existentes nos dois vetores*/
 
-
-
 void lin(int tan)
 {
     int a;
@@ -119,6 +117,21 @@ int main()
 		}
 	}
 	printf("\n");
+	lin(30);
+	printf("Números números existentes nos dois vetores: \n\n");
+	for(i=0; i<x; i++)
+    {
+		temp= 0;
+		for(j=0; j<k; j++)
+		{
+			if (vet1[i] == vet2[j])
+			{
+				temp = temp+1;
+				printf("[%02d]", vet1[i]);
+				break;
+			}
+				}
+	}
 	lin(30);
     return 0;
 }
