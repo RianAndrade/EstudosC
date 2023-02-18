@@ -7,7 +7,7 @@ O propósito dele é bem simples desafiar a todos a resolver as questões propos
 
 - Existe uma pasta no início do repositório com o nome [Lista De Questões](https://github.com/RianAndrade/EstudosC/tree/main/Lista%20de%20Quest%C3%B5es) onde se encontra o PDF com a descrição de todas as questões, questões essas propostas pelo [Prof.Ms.Adriano Antunes Prates](http://adrianoap.info).
 
-- Existe outra pasta com o nome [Rsoluções](https://github.com/RianAndrade/EstudosC/tree/main/Resolu%C3%A7%C3%B5es) que é onde se encontram as minhas resoluções das questões no seguinte molde:
+- Existe outra pasta com o nome [Resoluções](https://github.com/RianAndrade/EstudosC/tree/main/Resolu%C3%A7%C3%B5es) que é onde se encontram as minhas resoluções das questões no seguinte molde:
 
    - O nome estará como ListXQuestY, onde X será o número referente a lista, e Y será referente ao número da questão dentro dela.
                   
