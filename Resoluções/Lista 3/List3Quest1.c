@@ -6,22 +6,17 @@ Segundos. Utilizando a constante __TIME__ faça a alimentação de uma variável
 Imprima na tela a hora atual com base na struct preenchida */
 
 struct Horario {
-    int horas;
-    int minutos;
-    int segundos;
+    int hora;
+    int minuto;
+    int segundo;
 };
 
 int main() {
-    struct Horario agora;
+    struct Horario hora_atual;
 
-    time_t t = time(NULL);
-    struct tm tm = *localtime(&t);
+    sscanf(__TIME__, "%d:%d:%d", &hora_atual.hora, &hora_atual.minuto, &hora_atual.segundo);
 
-    agora.horas = tm.tm_hour;
-    agora.minutos = tm.tm_min;
-    agora.segundos = tm.tm_sec;
-
-    printf("Horario atual: %02d:%02d:%02d\n", agora.horas, agora.minutos, agora.segundos);
+    printf("Hora atual: %02d:%02d:%02d\n", hora_atual.hora, hora_atual.minuto, hora_atual.segundo);
 
     return 0;
 }
